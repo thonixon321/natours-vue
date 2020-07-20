@@ -20,19 +20,25 @@
       <div class='col-1-of-2'>
         <div class='composition'>
           <img
-            src='../assets/img/nat-1-large.jpg'
+            srcset="../assets/img/nat-1.jpg 300w, ../assets/img/nat-1-large.jpg 1000w"
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
             alt='Photo 1'
             class='composition__photo composition__photo--p1'
+            src='../assets/img/nat-1-large.jpg'
           >
           <img
-            src='../assets/img/nat-2-large.jpg'
+            srcset="../assets/img/nat-2.jpg 300w, ../assets/img/nat-2-large.jpg 1000w"
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
             alt='Photo 2'
             class='composition__photo composition__photo--p2'
+            src='../assets/img/nat-2-large.jpg'
           >
           <img
-            src='../assets/img/nat-3-large.jpg'
+            srcset="../assets/img/nat-3.jpg 300w, ../assets/img/nat-3-large.jpg 1000w"
+            sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
             alt='Photo 3'
             class='composition__photo composition__photo--p3'
+            src='../assets/img/nat-3-large.jpg'
           >
         </div>
       </div>

@@ -1,12 +1,21 @@
 <template>
   <div id="app">
 
+    <Nav />
+
     <Header />
 
     <main>
       <About />
       <Features />
+      <Tours />
+      <Stories />
+      <Booking />
     </main>
+
+    <Footer />
+
+    <PopUp />
 
     <!-- <section class="grid-test">
       <div class='row'>
@@ -74,16 +83,29 @@
 </template>
 
 <script>
+import Nav from "./components/Nav";
 import Header from "./components/Header";
 import About from "./components/About";
 import Features from "./components/Features";
+import Tours from "./components/Tours";
+import Stories from "./components/Stories";
+import Booking from "./components/Booking";
+import Footer from "./components/Footer";
+import PopUp from "./components/PopUp";
+
 export default {
   name: "LandingPage",
 
   components: {
+    Nav,
     Header,
     About,
-    Features
+    Features,
+    Tours,
+    Stories,
+    Booking,
+    Footer,
+    PopUp
   }
 };
 </script>
